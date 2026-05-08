@@ -14,15 +14,7 @@
     <p>初参加を検討されている方向けの案内ページです。</p>
   </header>
 
-  <div id="nav"></div>
-
-  <script>
-    fetch('components/nav.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('nav').innerHTML = data;
-      });
-  </script>
+<div id="nav"></div>
 
   <main>
 
@@ -99,9 +91,8 @@
 
   </main>
 
-  <footer>
-    <p>© 近畿本部 修習技術者支援委員会（仮）</p>
-  </footer>
+<div id="footer"></div>
 
+<script src="js/common.js"></script>
 </body>
 </html>

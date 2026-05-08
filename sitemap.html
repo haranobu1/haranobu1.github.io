@@ -15,14 +15,6 @@
   </header>
 
 <div id="nav"></div>
-
-<script>
-fetch('components/nav.html')
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById('nav').innerHTML = data;
-  });
-</script>
   
   <main>
 
@@ -60,9 +52,8 @@ fetch('components/nav.html')
 
   </main>
 
-  <footer>
-    <p>© 近畿本部 修習技術者支援委員会（仮）</p>
-  </footer>
+<div id="footer"></div>
 
+<script src="js/common.js"></script>
 </body>
 </html>
