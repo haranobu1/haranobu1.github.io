@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>初めての方へ｜近畿本部 修習技術者支援委員会（仮）</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>初めての方へ</h1>
+    <p>初参加を検討されている方向けの案内ページです。</p>
+  </header>
+
+  <div id="nav"></div>
+
+  <script>
+    fetch('components/nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('nav').innerHTML = data;
+      });
+  </script>
+
+  <main>
+
+    <section>
+      <h2>こんな方におすすめです</h2>
+
+      <ul>
+        <li>技術士を目指している方</li>
+        <li>修習技術者・技術士補の方</li>
+        <li>若手技術者の方</li>
+        <li>技術士制度に関心のある方</li>
+        <li>他分野の技術者と交流したい方</li>
+        <li>CPDを通じて継続的に学びたい方</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>初参加でも大丈夫ですか？</h2>
+
+      <p>
+        初参加の方も歓迎しています。
+      </p>
+
+      <p>
+        行事によっては、講演だけでなく、
+        質疑応答や交流・情報交換の時間を設ける予定です。
+      </p>
+
+      <p>
+        一人で参加される方も多く、
+        初参加だから入りづらいということは基本的にありません。
+      </p>
+    </section>
+
+    <section>
+      <h2>技術士でなくても参加できますか？</h2>
+
+      <p>
+        行事によって異なりますが、
+        技術士を目指している方や若手技術者の方も参加可能な行事を予定しています。
+      </p>
+
+      <p>
+        詳細は各行事案内をご確認ください。
+      </p>
+    </section>
+
+    <section>
+      <h2>名刺は必要ですか？</h2>
+
+      <p>
+        必須ではありませんが、
+        交流や情報交換の際にあると便利です。
+      </p>
+    </section>
+
+    <section>
+      <h2>どのような行事がありますか？</h2>
+
+      <p>
+        講演会、見学会、交流会、情報交換会など、
+        技術研鑽や交流を目的とした行事を予定しています。
+      </p>
+    </section>
+
+    <section>
+      <h2>お願い</h2>
+
+      <p>
+        現時点では試作ページであり、
+        掲載内容は今後変更となる場合があります。
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 近畿本部 修習技術者支援委員会（仮）</p>
+  </footer>
+
+</body>
+</html>
