@@ -13,16 +13,15 @@
     <p>技術士を目指す方、修習技術者、技術士補、若手技術者向けの情報を整理するための仮ページです。</p>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">トップ</a></li>
-      <li><a href="about.html">このページについて</a></li>
-      <li><a href="events.html">行事案内</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-      <li><a href="policy.html">サイトポリシー</a></li>
-      <li><a href="sitemap.html">サイトマップ</a></li>
-    </ul>
-  </nav>
+<div id="nav"></div>
+
+<script>
+fetch('components/nav.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('nav').innerHTML = data;
+  });
+</script>
   
   <main>
     <section>
