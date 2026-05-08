@@ -20,6 +20,11 @@ header {
   padding: 20px;
 }
 
+header > * {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* =========================
    共通ナビゲーション
@@ -122,5 +127,6 @@ footer a:hover {
 }
 
 footer p {
-  margin: 10px 0 0 0;
+  text-align: center;
+  margin: 10px auto 0;
 }
