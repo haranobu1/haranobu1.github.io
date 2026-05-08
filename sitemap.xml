@@ -3,7 +3,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://haranobu1.github.io/</loc>
+    <loc>https://haranobu1.github.io/index.html</loc>
+  </url>
+
+  <url>
+    <loc>https://haranobu1.github.io/committee.html</loc>
   </url>
 
   <url>
