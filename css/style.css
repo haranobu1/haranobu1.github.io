@@ -1,3 +1,7 @@
+/* =========================
+   基本設定
+========================= */
+
 body {
   font-family: sans-serif;
   line-height: 1.8;
@@ -5,11 +9,50 @@ body {
   padding: 0;
 }
 
+
+/* =========================
+   ヘッダー
+========================= */
+
 header {
   background-color: #003366;
   color: white;
   padding: 20px;
 }
+
+
+/* =========================
+   共通ナビゲーション
+========================= */
+
+nav {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================
+   メインコンテンツ
+========================= */
 
 main {
   max-width: 900px;
@@ -26,25 +69,11 @@ h2 {
   padding-left: 10px;
 }
 
-/* 共通ナビ */
-nav ul {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  padding: 0;
-}
 
-nav a {
-  text-decoration: none;
-  color: #003366;
-  font-weight: bold;
-}
+/* =========================
+   フッター
+========================= */
 
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* フッター */
 footer {
   margin-top: 50px;
   padding: 30px 20px;
@@ -53,8 +82,18 @@ footer {
   font-size: 0.9rem;
 }
 
+footer > * {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer nav {
   margin-bottom: 25px;
+}
+
+footer nav ul {
+  justify-content: center;
 }
 
 footer h3 {
