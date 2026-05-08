@@ -57,9 +57,8 @@ nav a:hover {
 main {
   max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 20px 40px;
 }
-
 section {
   margin-bottom: 40px;
 }
@@ -69,14 +68,13 @@ h2 {
   padding-left: 10px;
 }
 
-
 /* =========================
    フッター
 ========================= */
 
 footer {
-  margin-top: 50px;
-  padding: 30px 20px;
+  margin-top: 40px;
+  padding: 24px 20px;
   background-color: #f5f5f5;
   text-align: center;
   font-size: 0.9rem;
@@ -89,35 +87,40 @@ footer > * {
 }
 
 footer nav {
-  margin-bottom: 25px;
-}
-
-footer nav ul {
-  justify-content: center;
+  margin-bottom: 18px;
 }
 
 footer h3 {
-  font-size: 1rem;
-  margin-bottom: 10px;
+  font-size: 0.95rem;
+  margin: 0 0 6px 0;
   color: #003366;
 }
 
 footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 footer li {
-  margin-bottom: 8px;
+  margin: 0;
 }
 
 footer a {
   text-decoration: none;
   color: #003366;
+  font-weight: bold;
 }
 
 footer a:hover {
   color: #0055aa;
   text-decoration: underline;
+}
+
+footer p {
+  margin: 10px 0 0 0;
 }
