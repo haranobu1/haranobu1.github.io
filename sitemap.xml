@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://haranobu1.github.io/index.html</loc>
+    <loc>https://haranobu1.github.io/</loc>
   </url>
 
   <url>
@@ -36,10 +35,6 @@
 
   <url>
     <loc>https://haranobu1.github.io/contact.html</loc>
-  </url>
-
-  <url>
-    <loc>https://haranobu1.github.io/sitemap.html</loc>
   </url>
 
 </urlset>
