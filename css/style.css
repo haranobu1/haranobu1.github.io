@@ -41,6 +41,11 @@ header p {
 /* =========================
    共通ナビゲーション
 ========================= */
+.site-title a {
+  color: #f4fff8;
+  text-decoration: none;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
 
 nav {
   max-width: 900px;
@@ -158,71 +163,80 @@ ul {
 li {
   margin-bottom: 6px;
 }
-
-
-/* =========================
-   フッター
-========================= */
+/* ===== フッター：文字リンク版 ===== */
 
 footer {
-  margin-top: 40px;
-  padding: 28px 20px;
-  background-color: #e8f7ef;
-  text-align: center;
+  background: #eef5f1;
+  border-top: 1px solid #cfded5;
+  padding: 1.8rem 1rem 1.4rem;
   font-size: 0.9rem;
-}
-
-footer > * {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  color: #444;
+  text-align: center;
 }
 
 footer nav {
-  margin-bottom: 18px;
+  margin: 0 auto 1.2rem;
+  text-align: center;
 }
 
 footer h3 {
-  font-size: 1rem;
-  margin: 0 0 8px;
-  color: #0f766e;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+  color: #006b5c;
+  font-weight: 700;
 }
 
 footer ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 auto !important;
+
   display: flex;
   justify-content: center;
-  gap: 14px;
+  align-items: center;
   flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+
+  gap: 0.5rem 1.4rem;
 }
 
 footer li {
-  margin: 0;
+  margin: 0 !important;
+  padding: 0;
+}
+footer a,
+footer nav a {
+  display: inline !important;
+
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+
+  color: #005ea8;
+
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+  text-decoration-thickness: 1px;
+
+  font-weight: 500;
 }
 
-footer a {
-  text-decoration: none;
-  color: #0f766e;
-  font-weight: bold;
-}
+/* hover */
 
 footer a:hover {
-  color: #365314;
-  text-decoration: underline;
+  color: #003f73;
 }
 
-footer p {
-  text-align: center;
-  margin: 10px auto 0;
-}
+/* 外部リンクだけ少し濃く */
 
+.footer-external a {
+  color: #004e8c;
+}
 
 /* =========================
    スマートフォン対応
 ========================= */
-
 @media (max-width: 600px) {
   header {
     padding: 32px 20px;
@@ -232,11 +246,11 @@ footer p {
     font-size: 1.5rem;
   }
 
-  nav ul {
+  header nav ul {
     gap: 8px;
   }
 
-  nav a {
+  header nav a {
     padding: 7px 12px;
     font-size: 0.9rem;
   }
@@ -246,7 +260,6 @@ footer p {
     border-radius: 14px;
   }
 }
-
 
 section ul {
   margin-top: 12px;
