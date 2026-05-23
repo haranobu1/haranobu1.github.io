@@ -277,3 +277,44 @@ section ul {
 section ul {
   list-style-type: disc;
 }
+/* =========================
+   説明テーブル共通
+========================= */
+
+.exam-overview-table {
+  width: 100%;
+  max-width: 760px;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.exam-overview-table th,
+.exam-overview-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #dbe5df;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.8;
+}
+
+/* ヘッダー */
+.exam-overview-table thead th {
+  background: #edf5f1;
+  color: #0d6b5c;
+  font-weight: 700;
+}
+
+/* 左列 */
+.exam-overview-table tbody th {
+  width: 170px;
+  background: #f7faf8;
+  color: #0d6b5c;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* 最終行 */
+.exam-overview-table tr:last-child th,
+.exam-overview-table tr:last-child td {
+  border-bottom: none;
+}
