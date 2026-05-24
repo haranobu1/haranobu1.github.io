@@ -423,3 +423,18 @@ section ul {
   line-height: 1.7;
   color: #666;
 }
+
+.flyer-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.flyer-images img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  border: 1px solid #ccc;
+}
