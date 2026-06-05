@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!--  トップ  -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://haranobu1.github.io/</loc>
-  </url>
-
+ <lastmod>2026-05-01</lastmod>
+</url>
+<!--  基本ページ  -->
   <url>
     <loc>https://haranobu1.github.io/committee.html</loc>
   </url>
